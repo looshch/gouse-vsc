@@ -1,0 +1,49 @@
+{
+  "name": "gouse",
+  "displayName": "gouse",
+  "publisher": "looshch",
+  "description": "Toggle ‘declared but not used’ errors in Go.",
+  "version": "0.0.2",
+  "engines": {
+    "vscode": "^1.69.0"
+  },
+  "activationEvents": [
+    "onCommand:gouse.toggle"
+  ],
+  "main": "./out/extension.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/looshch/gouse-vsc"
+  },
+  "contributes": {
+    "languages": [
+      {
+        "id": "go",
+        "extensions": [
+          ".go"
+        ]
+      }
+    ],
+    "commands": [
+      {
+        "command": "gouse.toggle",
+        "title": "gouse: Toggle ‘declared but not used’"
+      }
+    ]
+  },
+  "scripts": {
+    "vscode:prepublish": "npm run esbuild-base -- --minify",
+    "compile": "tsc -p ./",
+    "watch": "tsc -watch -p ./",
+    "esbuild-base": "esbuild ./src/extension.ts --bundle --outfile=out/main.js --external:vscode --format=cjs --platform=node",
+    "esbuild": "npm run esbuild-base -- --sourcemap",
+    "esbuild-watch": "npm run esbuild-base -- --sourcemap --watch",
+    "test-compile": "tsc -p ./"
+  },
+  "devDependencies": {
+    "@types/node": "16.x",
+    "@types/vscode": "^1.69.0",
+    "esbuild": "^0.14.53",
+    "typescript": "^4.7.4"
+  }
+}
