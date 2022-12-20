@@ -2,8 +2,8 @@
   "name": "gouse",
   "displayName": "gouse",
   "publisher": "looshch",
-  "description": "A missing quickfix for ‘declared but not used’ errors in Go",
-  "version": "0.0.3",
+  "description": "Toggle ‘declared but not used’ errors in Go",
+  "version": "0.0.4",
   "engines": {
     "vscode": "^1.69.0"
   },

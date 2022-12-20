@@ -1,6 +1,6 @@
 # [gouse-vsc](https://marketplace.visualstudio.com/items?itemName=looshch.gouse)
-A missing quickfix for ‘declared but not used’ errors in Go which uses
-idiomatic `_ = notUsedVar` and leaves a TODO comment.
+Toggle ‘declared but not used’ errors in Go by using idiomatic `_ = notUsedVar`
+and leaving a TODO comment.
 ![a demo gif](https://raw.githubusercontent.com/looshch/gouse/master/demo.gif)
 
 ## Dependencies
