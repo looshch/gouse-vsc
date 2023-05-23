@@ -3,7 +3,8 @@
   "displayName": "gouse",
   "publisher": "looshch",
   "description": "Toggle ‘declared but not used’ errors in Go",
-  "version": "0.2.0",
+  "icon": "icon.png",
+  "version": "0.3.0",
   "engines": {
     "vscode": "^1.69.0"
   },
