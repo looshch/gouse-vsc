@@ -2,9 +2,9 @@
   "name": "gouse",
   "displayName": "gouse",
   "publisher": "looshch",
-  "description": "Toggle ‘declared but not used’ errors in Go",
+  "description": "Toggle ‘declared and not used’ errors in Go",
   "icon": "icon.png",
-  "version": "0.3.0",
+  "version": "0.4.0",
   "engines": {
     "vscode": "^1.69.0"
   },
@@ -28,7 +28,7 @@
     "commands": [
       {
         "command": "gouse.toggle",
-        "title": "gouse: Toggle ‘declared but not used’ errors"
+        "title": "gouse: Toggle ‘declared and not used’ errors"
       }
     ]
   },
