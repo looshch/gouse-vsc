@@ -1,0 +1,7 @@
+{
+	"experimentalTernaries": true,
+	"useTabs": true,
+	"semi": false,
+	"singleQuote": true,
+	"proseWrap": "always"
+}

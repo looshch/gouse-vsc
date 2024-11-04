@@ -1,13 +1,35 @@
 {
+	"compileOnSave": false,
 	"compilerOptions": {
-		"module": "commonjs",
-		"target": "ES2020",
 		"outDir": "out",
-		"lib": [
-			"ES2020"
-		],
-		"sourceMap": true,
 		"rootDir": "src",
-		"strict": true
+		"strict": true,
+		"forceConsistentCasingInFileNames": true,
+		"noUnusedLocals": true,
+		"noUnusedParameters": true,
+		"exactOptionalPropertyTypes": true,
+		"noUncheckedIndexedAccess": true,
+		"allowUnusedLabels": false,
+		"allowUnreachableCode": false,
+		"noImplicitOverride": true,
+		"noPropertyAccessFromIndexSignature": true,
+		"noImplicitReturns": true,
+		"noFallthroughCasesInSwitch": true,
+		"skipLibCheck": true,
+		"isolatedModules": true,
+		"esModuleInterop": true,
+		"sourceMap": true,
+		"declaration": false,
+		"experimentalDecorators": true,
+		"importHelpers": true,
+		"target": "ES2022",
+		"module": "ES2022",
+		"lib": ["ES2022"]
+	},
+	"angularCompilerOptions": {
+		"enableI18nLegacyMessageIdFormat": false,
+		"strictInjectionParameters": true,
+		"strictInputAccessModifiers": true,
+		"strictTemplates": true
 	}
 }
